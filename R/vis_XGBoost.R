@@ -45,14 +45,13 @@ vis_XGBoost <- function(x,view='2D',legend_name='Power',xlab='avg_log2FC_abs',yl
   eval(parse(text=txt2))
 
   if (view=='2D'){
-    txt3<-'rayshader::plot_gg(mtplot, width = 3.5, raytrace = FALSE, preview = TRUE)'
+    txt3<-'rayshader::plot_gg(mtplot, width = 3.5, raytrace = FALSE, preview = TRUE, pointcontract = 1)'
     eval(parse(text=txt3))
   }
   else{
     txt4<-'rayshader::plot_gg(mtplot, width = 3.5, multicore = TRUE, windowsize = c(800, 800),
-            zoom = 0.85, phi = 45, theta = 30, sunangle = 225)'
+            zoom = 0.85, phi = 45, theta = 30, sunangle = 225, pointcontract = 1)'
     eval(parse(text=txt4))
     rayshader::render_snapshot(clear = TRUE)
   }
 }
-

@@ -1,4 +1,4 @@
-06cd55f05c283b27c2beeb77a3ed5463 *DESCRIPTION
+ebe84b95d0573b7a6a4a5f88dbe23db8 *DESCRIPTION
 b72691bf34eceebf972125219252bb7e *LICENSE
 e0ff70f9acc54c1b0d9da70eabfadcbf *NAMESPACE
 1c8aaa664587a836d4e95150ab578ad7 *R/PoweREST.R
@@ -11,7 +11,7 @@ a13790e836715121e8a216659283fc3a *R/plotly_powerest.R
 fdde7326370800770abdcc3d15c7318b *R/pred_XGBoost.R
 210fce3a7b1d88747e35de55112740d4 *R/pred_powerest.R
 b56ff2b193ecba52f9ec7f3b10cca008 *R/utils-pipe.R
-048e17492a647c2f32b196a5baa6c768 *R/vis_XGBoost.R
+f8ca8f3c64c8af2cc49d188ed4e03b71 *R/vis_XGBoost.R
 f523e4f88777699c51812b23681da1b9 *R/vis_powerest.R
 27d5a1aa224c7a16b727a2fbc90bf93f *build/vignette.rds
 8129bdcbf0e5f2e269ce36fb6cdd281a *data/power_example.rda
